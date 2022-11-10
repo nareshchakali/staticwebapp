@@ -23,7 +23,7 @@ steps:
 - task: Npm@1
   inputs:
     command: 'custom'
-    workingDir: '$(Build.SourcesDirectory)/petaclinic-app'
+    workingDir: '$(Build.SourcesDirectory)/npm'
     customCommand: 'run test'
   continueOnError: true
 
